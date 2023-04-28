@@ -10,6 +10,7 @@ axum = "0.6.4"
 axum-extra = { version = "0.4.2", features = ["spa"] }
 dotenv = "0.15.0"
 rust-embed = { version = "6.4.2", features = ["include-exclude"]}
+serde = { version = "1.0.160", features = ["derive"] }
 tokio = { version = "1.24.2", features = ["rt", "rt-multi-thread", "macros"] }
 tower = { version = "0.4", features = ["util"] }
 tower-http = { version = "0.3.5", features = ["fs", "trace"] }
